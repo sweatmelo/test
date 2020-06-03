@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/detail/main",
+    "pages/skill/main" ,
+    "pages/map/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F8FAFF",
+    "navigationBarTitleText": "飞鱼语音助理",
+    "navigationBarTextStyle": "black"
+  },
+
+    "permission": {
+        "scope.userLocation": {
+          "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+        }
+      },
+      
+      "plugins": {
+            "routePlan": {
+            "version": "1.0.5",
+            "provider": "wx50b5593e81dd937a"
+            }
+        }
+  }
+  
+
